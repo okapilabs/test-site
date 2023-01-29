@@ -1,0 +1,32 @@
+
+body {
+	font-family: Roboto;
+}
+
+.root {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+	color: white;
+	min-height: 100vh;
+	text-align: center;
+	background: rgb(19,76,213);
+	background: linear-gradient(60deg, rgba(19,76,213,1) 0%, rgba(75,76,255,1) 20%, rgba(144,53,255,1) 100%);
+	padding: 20px 20px;
+}
+.lw-logo {
+	display: block;
+	max-height: 200px;
+	width: auto;
+}
+
+.investor-section {
+	padding: 100px;
+}
+
+.investor-logo {
+	max-height: 100px;
+}
